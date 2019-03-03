@@ -1,6 +1,6 @@
-# URT_comm.github.io
+# URT_Comm
 
-## FlowBuilder 'Flow' project - 'URT Comm.' - 'U'niversal 'R'esource 'T'opic-based Communication - "urtc_app@1.0.1"
+## A FlowBuilder 'Flow' project - 'URT Comm.' - 'U'niversal 'R'esource 'T'opic-based Communication - "urtc_app@1.0.1"
 
 ### Push communication 'data' as per below:-
 
