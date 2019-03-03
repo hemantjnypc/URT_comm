@@ -12,7 +12,7 @@
 
 #### MAIL
 ##### Go to 'msg.topic' in the 'injector' node
-##### Replace URT with mail, i.e. mail://
+##### Replace 'URT' with 'mail', i.e. mail://
 ##### Key in the required fields as per below
 ###### 'From' ID inside (), for e.g. (info@abc.com)
 ###### 'To' ID inside [], for e.g. [info@xyz.com] 
@@ -26,7 +26,7 @@
 
 #### TWEET
 ##### Go to 'msg.topic' in the 'injector' node
-##### Replace URT with tweet, i.e. tweet://
+##### Replace 'URT' with 'tweet', i.e. tweet://
 ##### Key in the required fields as per below
 ###### Tweet target 'Screen_Name (alias/ hashtag)' inside Ee, for e.g. E@henrye
 ###### Tweet 'Text' inside Ff, for e.g. FIt's a fine morning!f 
@@ -37,9 +37,24 @@
 
 #### SMS
 ##### Go to 'msg.topic' in the 'injector' node
-##### Replace URT with tweet, i.e. sms://
+##### Replace 'URT' with 'sms', i.e. sms://
 ##### Key in the required fields as per below
-###### Target SMS 'Number' inside Ee, for e.g. E@henrye
-###### Tweet 'Text' inside Ff, for e.g. FIt's a fine morning!f 
-###### Tweet 'Image' inside Gg, for e.g. GC:\test\file1.pngf
-###### Tweet 'URL' inside Hh, for e.g. Hhttp://def.comh
+###### Target SMS 'Number' inside Ii, for e.g. I+919876543210i
+###### SMS 'Message' inside Jj, for e.g. JHi John! Let's meet up at 11j 
+
+---
+
+#### PLOT
+##### Go to 'msg.topic' in the 'injector' node
+##### Replace 'URT' with 'plot', i.e. plot://
+##### Key in the required fields as per below
+###### 'Field ID' inside Kk, for e.g. K1k
+
+---
+
+#### MQTT PUB (using 'broker.hivemq.com' broker on '1883' with 'hj_ypc' open topic)
+##### Go to 'msg.topic' in the 'injector' node
+##### Replace 'URT' with 'pub', i.e. pub://
+##### Key in the required fields as per below
+###### 'QoS' value inside Ll, for e.g. L2l
+###### 'Retain' value inside Mm, for e.g. MNom
