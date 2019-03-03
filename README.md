@@ -52,7 +52,7 @@
 
 ---
 
-#### MQTT PUB (using 'broker.hivemq.com' broker on '1883' with 'hj_ypc' open topic)
+#### MQTT PUB (using 'broker.hivemq.com' public broker on '1883' port with 'hj_ypc' open topic)
 ##### Go to 'msg.topic' in the 'injector' node
 ##### Replace 'URT' with 'pub', i.e. pub://
 ##### Key in the required fields as per below:-
